@@ -19,6 +19,31 @@ Lecture for AQA linux, docker, selenoid, CI/CD with info, lessons and links
  	ssh -i C:\Users\Bat_Lanit\key_den root@45.89.65.48
  
  </details>
+ 
+### Install
+<details><summary>SSH commands:</summary>
+	
+	sudo apt install openjdk-17-jdk -y
+ 	sudo apt install gradle -y
+  	sudo apt install maven -y
+   	sudo apt install docker.io -y
+    
+    	docker --version
+     	docker login
+      	docker pull aerokube/selenoid 
+       	docker pull selenoid/chrome:125.0
+	docker pull selenoid/chrome:115.0
+ 	docker pull selenoid/vnc:chrome_125.0
+
+  	wget https://github.com/aerokube/cm/releases/download/1.8.8/cm_linux_amd64
+	chmod +x cm_linux_amd64
+ 	./cm_linux_amd64 selenoid start --vnc
+  	
+   	mkdir config
+    	touch config/browsers.json
+   
+ </details>
+ 
 	
 ## Linux commands
 <details><summary>Linux commands:</summary>
