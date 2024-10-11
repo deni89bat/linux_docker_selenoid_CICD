@@ -13,7 +13,7 @@ Lecture for AQA linux, docker, selenoid, CI/CD with info, lessons and links
 	
 ### SSH
 <details><summary>SSH commands:</summary>
-	
+	```bash
 	ssh-keygen
 	ssh -i ~/.ssh/test.pub <login>@<public ip>
  
