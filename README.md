@@ -16,7 +16,7 @@ Lecture for AQA linux, docker, selenoid, CI/CD with info, lessons and links
 	
 	ssh-keygen 
 	ssh -i ~/.ssh/test.pub <login>@<public ip> 
- 	ssh -i C:\Users\Bat_Lanit\key_den bat_lanit@45.89.65.48 
+ 	ssh -i C:\Users\Bat_Lanit\key_den root@45.89.65.48
  
  </details>
 	
