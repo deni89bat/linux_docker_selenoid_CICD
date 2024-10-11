@@ -13,9 +13,10 @@ Lecture for AQA linux, docker, selenoid, CI/CD with info, lessons and links
 	
 ### SSH
 <details><summary>SSH commands:</summary>
-	```bash
-	ssh-keygen
-	ssh -i ~/.ssh/test.pub <login>@<public ip>
+	
+	ssh-keygen 
+	ssh -i ~/.ssh/test.pub <login>@<public ip> 
+ 	ssh -i C:\Users\Bat_Lanit\key_den bat_lanit@45.89.65.48 
  
  </details>
 	
